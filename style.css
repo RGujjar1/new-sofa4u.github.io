@@ -1,0 +1,188 @@
+/* main */
+* {
+  max-width: 100%;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans ", sans-serif;
+}
+
+.heading {
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+/* paragrafs */
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  letter-spacing: 2px;
+  opacity: .6;
+}
+
+/* button */
+
+body .btn {
+    border-radius: 0;
+  }
+
+/* navbar */
+nav {
+  margin: 0 2%;
+}
+
+/* Title */
+
+.title {
+  background-image: url(/Assets/title-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  letter-spacing: 21;
+}
+
+.title-text {
+  max-width: 50%;
+  min-height: 80vh;
+}
+
+.title p {
+  margin: 2rem 3rem 2rem 0;
+}
+
+.title .row {
+  padding: 15% 8%;
+}
+
+/* Welcome Section */
+
+.welcome-text {
+  text-align: center;
+  margin: 6% 20%;
+}
+
+.welcome-text p {
+  margin-top: 2rem;
+}
+
+.sign {
+  font-family: "Aguafina Script", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 0;
+  opacity: .9;
+}
+
+/* Products */
+
+#Product p{
+    letter-spacing: 1px;
+    font-size: small;
+    line-height: 1.5;
+}
+
+#Product div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.colum-1{
+    background-image: url(/Assets/inside-weather-dbH_vy7vICE-unsplash.jpg);
+}
+
+.colum-22{
+    background-image: url(/Assets/jakob-owens-nQBc6clG3X4-unsplash.jpg);
+}
+
+.colum-23{
+    background-image: url(/Assets/marlon-corona-1tMc27CFUbA-unsplash.jpg);
+}
+
+.colum-3 {
+    background-image: url(/Assets/michael-warf-f8egRYt5RGk-unsplash.jpg);
+}
+
+.colum-4{
+    background-image: url(/Assets/last.jpg);
+}
+
+.row .colum-text{
+padding:2rem;
+}
+
+/* back to top */
+
+.back-to-top{
+  color: white;
+  position: fixed;
+  left: 95%;
+  top: 92%;
+  padding: 1rem 1.25rem;
+  border-radius: 100%;
+}
+.back-to-top:hover{
+  color: white;
+}
+
+/* Contact */
+
+#Contact{
+    min-height: 20rem;
+    background-color: #111;
+    color: white;
+}
+
+#Contact .contact-column{
+  padding: 2rem 3rem;
+}
+
+.contact-column-1 img{
+  width: 8rem;
+  height:8rem;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+#Contact h2, #Contact h4{
+  margin-bottom: 2rem;
+}
+
+.contact-column-2 h6{
+  opacity: .8;
+  cursor: pointer;
+}
+
+.contact-column-3 a{
+  color: white;
+  opacity: .6;
+}
+.contact-column-3 a:hover{
+  color: white;
+  opacity: 1;
+}
+
+.contact-column-4 .input-group .form-control{
+  opacity: .9;
+  border-radius: 0;
+}
+
+.contact-column-4 p{
+  padding: 1rem 0;
+}
+
+.contact-column-4 .fa-brands{
+  padding: 0 .5rem;
+  opacity: .6;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.contact-column-4 .fa-brands:hover{
+  opacity: 1;
+}
+
